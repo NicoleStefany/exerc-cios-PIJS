@@ -1,1 +1,1 @@
-# exerc-cios-PIJS
+# exercicios-PIJS
