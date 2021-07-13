@@ -30,14 +30,16 @@ function menu(comidas, tempoPreparo)
 }
 
 function microondas(prato, tempoPreparo) {
-    if(tempoPreparo >=3 * prato){
+      if(tempoPreparo >=3 * prato){
         console.log("KABUUUM!!")
-    } else if(tempoPreparo >=2 * prato){
+    } 
+      else if(tempoPreparo >=2 * prato){
         console.log("A comida queimou!")
     }
       else if(tempoPreparo < prato){
             console.log("Tempo insuficiente")
-    } else {
+    }
+      else {
         console.log("Prato pronto, bom apetite!!")
     }
 }
